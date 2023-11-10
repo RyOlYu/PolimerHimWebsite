@@ -1,0 +1,87 @@
+body{
+  background: #fff;
+}
+
+.headerContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  display: flex;
+}
+
+.navBarContainer{
+  display: flex;
+}
+
+.navBarList{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none !important;
+}
+
+.navBarList li{
+  padding-right: 10px !important;
+}
+
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.companyInfo{
+  display: flex;
+}
+
+.title{
+  font-family: monospace;
+}
+
+.companyDiscription{
+  position: relative;
+}
+
+.catalogContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productCard{
+  display: flex;
+}
+
+.productImg{
+  display: flex;
+}
+
+.productTitle{
+  position: relative;
+}
+
+.productDiscription{
+  position: relative;
+}
+
+.productDiscriptionList{
+  display: flex;
+  flex-direction: column;
+}
+
+.contactInfoContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.footerTitle{
+  position: relative;
+}
+
+.contactDiscription{
+  display: flex;
+}
+
+.footerInfo{
+  display: flex;
+  flex-direction: column;
+}
