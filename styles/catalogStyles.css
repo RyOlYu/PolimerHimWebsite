@@ -1,15 +1,20 @@
 
 .catalogContainer{
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
+  background: #cacae7;
+  justify-content: space-between;
+
   
 }
 
 .productCard{
   display: flex;
-  width: 30%;
-  justify-content: space-around;
   padding-top: 50px !important;
+  align-items: center;
+  border: 1px solid #fff;
+
 }
 
 .productImg{
