@@ -28,49 +28,29 @@ body{
 .mainContainer{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .companyInfo{
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title{
   font-family: monospace;
+
 }
 
 .companyDiscription{
   position: relative;
-}
-
-.catalogContainer{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.productCard{
-  display: flex;
-}
-
-.productImg{
-  display: flex;
-}
-
-.productTitle{
-  position: relative;
-}
-
-.productDiscription{
-  position: relative;
-}
-
-.productDiscriptionList{
-  display: flex;
-  flex-direction: column;
+  padding: 50px 100px;
 }
 
 .contactInfoContainer{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .footerTitle{
@@ -84,4 +64,5 @@ body{
 .footerInfo{
   display: flex;
   flex-direction: column;
+  list-style: none !important;
 }

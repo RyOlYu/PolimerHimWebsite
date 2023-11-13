@@ -1,0 +1,33 @@
+
+.catalogContainer{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.productCard{
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  padding-top: 50px !important;
+}
+
+.productImg{
+  display: flex;
+  height: 400px;
+  width: auto !important;
+}
+
+.productTitle{
+  position: relative;
+  width: 300px;
+}
+
+.productDiscription{
+  position: relative;
+}
+
+.productDiscriptionList{
+  display: flex;
+  flex-direction: column;
+}
