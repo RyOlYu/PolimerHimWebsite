@@ -1,0 +1,71 @@
+html{
+  font-size: 16px;
+}
+
+:root {
+  --color1: #000;
+  --color2: #2565cc;
+}
+
+body {
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  /* color: black; */
+  background: #fff;
+  min-width: 320px;
+}
+
+/* img{
+  min-width: 100%;
+  height: auto;
+} */
+
+section {
+  padding: 50px 0;
+}
+
+a{
+  color: var(--color1);
+}
+
+a:hover{
+  color: var(--color2);
+}
+
+/*--Header--*/
+
+.bg-body-tertiary, .navbar-nav, .nav-link, .navbar-brand {
+  color:var(--color1);
+  font-weight: 600;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.top-menu li a::after {
+  content: '';
+  color: var(--color2);
+  display: block;
+  width: 100%;
+  background-color: var(--color2);
+  height: 1px;
+  transition: all 0.3s;
+  transform: scale(0);
+}
+
+.top-menu li a:hover::after{
+  transform: scale(1);
+}
+
+
+/*--About--*/
+
+
+
+/*--Catalog--*/
+
+.catalog{
+  background-color: #eee;
+}
+
+
