@@ -4,9 +4,6 @@ html {
 
 :root {
   --color1: #000;
-  /*fonts*/
-  /* --color2: #2469d6; */
-  /*lighting*/
   --color3: #cfe2ff;
   --colorBody: #fff;
   --colorBg2: #eee;
@@ -16,7 +13,6 @@ body {
   font-family: 'Roboto Flex', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  /* color: black; */
   background: var(--colorBody);
   min-width: 320px;
 }
@@ -86,12 +82,10 @@ a:hover {
 
 
 .item-card {
-
   list-style: none;
 }
 
 .item_title {
-
   font-weight: 600;
 }
 
@@ -103,6 +97,14 @@ a:hover {
   box-shadow: 0px 0px 25px 10px var(--colorBody);
 }
 
+.accordion-body{
+  padding: 5px;
+}
+
+.catalogList{
+  justify-content: space-around;
+}
+
 .catalogCard{
   border: #fff 1px solid;
   box-shadow: 0px 0px 25px 10px var(--colorBody);
@@ -112,7 +114,7 @@ a:hover {
 .accordion-button:not(.collapsed) {
   background-color: var(--colorBody);
   border: none;
-  box-shadow: 0px 0px 1px 3px var(--colorBody);
+  box-shadow: 0px 15px 10px 15px var(--colorBody);
   text-align: center;
 }
 
@@ -122,8 +124,8 @@ a:hover {
 }
 
 
-.catalog,
-.sertificate {
+/* .catalog, */
+.sertificate, .about {
   background-color: var(--colorBg2);
 }
 
@@ -151,7 +153,6 @@ a:hover {
 }
 
 .carousel-item {
-  /* border:10px solid var(--colorBody); */
   border-radius: 10px;
 }
 
