@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: 'Roboto Flex', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   background: var(--colorBody);
   min-width: 320px;
@@ -38,6 +38,7 @@ a:hover {
 }
 
 /*--------------------Header--------------------*/
+
 
 .bg-body-tertiary,
 .navbar-light,
@@ -94,7 +95,7 @@ a:hover {
 .accordion-body,
 .accordion-button
 .catalogCard {
-  box-shadow: 0px 0px 25px 10px var(--colorBody);
+  box-shadow: 0px 10px 0px 10px var(--colorBody);
 }
 
 .accordion-body{
@@ -114,7 +115,7 @@ a:hover {
 .accordion-button:not(.collapsed) {
   background-color: var(--colorBody);
   border: none;
-  box-shadow: 0px 15px 10px 15px var(--colorBody);
+  box-shadow: 0px 5px 0px 5px var(--colorBody);
   text-align: center;
 }
 
@@ -125,7 +126,7 @@ a:hover {
 
 
 /* .catalog, */
-.sertificate, .about {
+.production, .about {
   background-color: var(--colorBg2);
 }
 
@@ -148,6 +149,7 @@ a:hover {
 /*--------------------Production--------------------*/
 
 .production-discription li {
+  background-color: var(--colorBg2);
   padding-left: 10px;
   font-size: large;
 }
@@ -168,3 +170,4 @@ footer{
   background-color: var(--color3);
 
 }
+
