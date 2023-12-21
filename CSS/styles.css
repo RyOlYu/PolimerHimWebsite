@@ -25,7 +25,7 @@ img {
 
 
 section {
-  padding: 75px 0;
+  padding: 100px 0;
   box-shadow: 0px 0px 50px 50px var(--colorBg2);
 }
 
@@ -60,6 +60,10 @@ a:hover {
 .nav-link.active{
   color: var(--colorBody)!important;
 
+}
+
+.logoBrend{
+  padding-left: 10%;
 }
 
 .top-menu li a::after {
