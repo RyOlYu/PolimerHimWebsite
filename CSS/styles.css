@@ -81,6 +81,10 @@ a:hover {
   transform: scale(1);
 }
 
+.my-2{
+  text-transform: lowercase;
+}
+
 
 /*--------------------Catalog--------------------*/
 
